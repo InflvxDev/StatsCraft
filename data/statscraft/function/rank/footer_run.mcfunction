@@ -1,0 +1,1 @@
+$data modify storage statscraft:tmp ui.body append value {type:"minecraft:plain_message",contents:[{text:"Tu puesto: ",color:"gray"},{text:"#$(p)",color:"aqua",bold:true},{text:" de $(k)",color:"gray"}]}

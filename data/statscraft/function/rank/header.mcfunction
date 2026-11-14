@@ -1,0 +1,1 @@
+$data modify storage statscraft:tmp ui.body append value {type:"minecraft:plain_message",width:340,contents:[{text:"$(c)",color:"gray"},{text:"  ·  ",color:"dark_gray"},{text:"$(k) jugadores",color:"gray"}]}

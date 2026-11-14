@@ -1,0 +1,2072 @@
+{
+ "type": "minecraft:multi_action",
+ "title": {
+  "text": "StatsCraft",
+  "color": "gold",
+  "bold": true
+ },
+ "external_title": {
+  "text": "★ StatsCraft",
+  "color": "gold"
+ },
+ "body": {
+  "type": "minecraft:plain_message",
+  "width": 400,
+  "contents": [
+   {
+    "text": "Rankings del servidor. ",
+    "color": "gray"
+   },
+   {
+    "text": "Toca una estadística",
+    "color": "white"
+   },
+   {
+    "text": " para ver el top.",
+    "color": "gray"
+   }
+  ]
+ },
+ "columns": 3,
+ "pause": false,
+ "after_action": "wait_for_response",
+ "actions": [
+  {
+   "label": {
+    "text": "Menas Totales",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 101"
+   }
+  },
+  {
+   "label": {
+    "text": "Menas de Carbón",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 102"
+   }
+  },
+  {
+   "label": {
+    "text": "Menas de Hierro",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 103"
+   }
+  },
+  {
+   "label": {
+    "text": "Menas de Cobre",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 104"
+   }
+  },
+  {
+   "label": {
+    "text": "Menas de Oro",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 105"
+   }
+  },
+  {
+   "label": {
+    "text": "Menas de Redstone",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 106"
+   }
+  },
+  {
+   "label": {
+    "text": "Menas de Lapislázuli",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 107"
+   }
+  },
+  {
+   "label": {
+    "text": "Menas de Diamante",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 108"
+   }
+  },
+  {
+   "label": {
+    "text": "Menas de Esmeralda",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 109"
+   }
+  },
+  {
+   "label": {
+    "text": "Cuarzo del Nether",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 110"
+   }
+  },
+  {
+   "label": {
+    "text": "Escombros Ancestrales",
+    "color": "aqua"
+   },
+   "tooltip": {
+    "text": "Menas · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 111"
+   }
+  },
+  {
+   "label": {
+    "text": "Minería de Piedra",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 112"
+   }
+  },
+  {
+   "label": {
+    "text": "Minería de Pizarra",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 113"
+   }
+  },
+  {
+   "label": {
+    "text": "Granito/Diorita/Andesita",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 114"
+   }
+  },
+  {
+   "label": {
+    "text": "Minería de Toba",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 115"
+   }
+  },
+  {
+   "label": {
+    "text": "Minería de Netherrack",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 116"
+   }
+  },
+  {
+   "label": {
+    "text": "Minería de Piedra del End",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 117"
+   }
+  },
+  {
+   "label": {
+    "text": "Minería de Obsidiana",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 118"
+   }
+  },
+  {
+   "label": {
+    "text": "Basalto y Piedra Negra",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 119"
+   }
+  },
+  {
+   "label": {
+    "text": "Minería de Hielo",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 120"
+   }
+  },
+  {
+   "label": {
+    "text": "Excavación de Tierra",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 121"
+   }
+  },
+  {
+   "label": {
+    "text": "Excavación de Arena",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 122"
+   }
+  },
+  {
+   "label": {
+    "text": "Excavación de Grava",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 123"
+   }
+  },
+  {
+   "label": {
+    "text": "Excavación de Arcilla",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 124"
+   }
+  },
+  {
+   "label": {
+    "text": "Amatista Recolectada",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 125"
+   }
+  },
+  {
+   "label": {
+    "text": "Piedra Luminosa",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 126"
+   }
+  },
+  {
+   "label": {
+    "text": "Sculk Destruido",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 127"
+   }
+  },
+  {
+   "label": {
+    "text": "Spawners Destruidos",
+    "color": "gray"
+   },
+   "tooltip": {
+    "text": "Minería · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 128"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala Total",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 129"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Roble",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 130"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Abeto",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 131"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Abedul",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 132"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Jungla",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 133"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Acacia",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 134"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Roble Oscuro",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 135"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Mangle",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 136"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Cerezo",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 137"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Roble Pálido",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 138"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Tallo Carmesí",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 139"
+   }
+  },
+  {
+   "label": {
+    "text": "Tala de Tallo Distorsionado",
+    "color": "#C8925A"
+   },
+   "tooltip": {
+    "text": "Tala · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 140"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha Total",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 141"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Trigo",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 142"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Zanahorias",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 143"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Papas",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 144"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Remolachas",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 145"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Sandías",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 146"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Calabazas",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 147"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Caña de Azúcar",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 148"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Verrugas del Nether",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 149"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Cacao",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 150"
+   }
+  },
+  {
+   "label": {
+    "text": "Cosecha: Bambú",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 151"
+   }
+  },
+  {
+   "label": {
+    "text": "Animales Criados",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 152"
+   }
+  },
+  {
+   "label": {
+    "text": "Peces Pescados",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 153"
+   }
+  },
+  {
+   "label": {
+    "text": "Polvo de Hueso Usado",
+    "color": "green"
+   },
+   "tooltip": {
+    "text": "Agricultura · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 154"
+   }
+  },
+  {
+   "label": {
+    "text": "Mobs Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 155"
+   }
+  },
+  {
+   "label": {
+    "text": "Jugadores Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 156"
+   }
+  },
+  {
+   "label": {
+    "text": "Ratio K/D (PvP)",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 157"
+   }
+  },
+  {
+   "label": {
+    "text": "Mobs por Muerte",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 158"
+   }
+  },
+  {
+   "label": {
+    "text": "Daño Infligido",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 159"
+   }
+  },
+  {
+   "label": {
+    "text": "Daño Recibido",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 160"
+   }
+  },
+  {
+   "label": {
+    "text": "Daño Bloqueado (Escudo)",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 161"
+   }
+  },
+  {
+   "label": {
+    "text": "Zombis Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 162"
+   }
+  },
+  {
+   "label": {
+    "text": "Esqueletos Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 163"
+   }
+  },
+  {
+   "label": {
+    "text": "Creepers Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 164"
+   }
+  },
+  {
+   "label": {
+    "text": "Arañas Asesinadas",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 165"
+   }
+  },
+  {
+   "label": {
+    "text": "Endermans Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 166"
+   }
+  },
+  {
+   "label": {
+    "text": "Brujas Asesinadas",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 167"
+   }
+  },
+  {
+   "label": {
+    "text": "Phantoms Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 168"
+   }
+  },
+  {
+   "label": {
+    "text": "Slimes Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 169"
+   }
+  },
+  {
+   "label": {
+    "text": "Blazes Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 170"
+   }
+  },
+  {
+   "label": {
+    "text": "Ghasts Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 171"
+   }
+  },
+  {
+   "label": {
+    "text": "Esqueletos Wither",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 172"
+   }
+  },
+  {
+   "label": {
+    "text": "Piglins Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 173"
+   }
+  },
+  {
+   "label": {
+    "text": "Hoglins Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 174"
+   }
+  },
+  {
+   "label": {
+    "text": "Guardianes Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 175"
+   }
+  },
+  {
+   "label": {
+    "text": "Shulkers Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 176"
+   }
+  },
+  {
+   "label": {
+    "text": "Illagers Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 177"
+   }
+  },
+  {
+   "label": {
+    "text": "Breezes Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 178"
+   }
+  },
+  {
+   "label": {
+    "text": "Creakings Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 179"
+   }
+  },
+  {
+   "label": {
+    "text": "Wardens Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 180"
+   }
+  },
+  {
+   "label": {
+    "text": "Withers Derrotados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 181"
+   }
+  },
+  {
+   "label": {
+    "text": "Dragones Derrotados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 182"
+   }
+  },
+  {
+   "label": {
+    "text": "Gólems de Hierro Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 183"
+   }
+  },
+  {
+   "label": {
+    "text": "Aldeanos Asesinados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 184"
+   }
+  },
+  {
+   "label": {
+    "text": "Animales Cazados",
+    "color": "red"
+   },
+   "tooltip": {
+    "text": "Combate · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 185"
+   }
+  },
+  {
+   "label": {
+    "text": "Muertes",
+    "color": "dark_red"
+   },
+   "tooltip": {
+    "text": "Muertes · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 186"
+   }
+  },
+  {
+   "label": {
+    "text": "Racha sin Morir",
+    "color": "dark_red"
+   },
+   "tooltip": {
+    "text": "Muertes · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 187"
+   }
+  },
+  {
+   "label": {
+    "text": "Muertes por Creeper",
+    "color": "dark_red"
+   },
+   "tooltip": {
+    "text": "Muertes · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 188"
+   }
+  },
+  {
+   "label": {
+    "text": "Muertes por Zombi",
+    "color": "dark_red"
+   },
+   "tooltip": {
+    "text": "Muertes · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 189"
+   }
+  },
+  {
+   "label": {
+    "text": "Muertes por Esqueleto",
+    "color": "dark_red"
+   },
+   "tooltip": {
+    "text": "Muertes · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 190"
+   }
+  },
+  {
+   "label": {
+    "text": "Muertes por Enderman",
+    "color": "dark_red"
+   },
+   "tooltip": {
+    "text": "Muertes · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 191"
+   }
+  },
+  {
+   "label": {
+    "text": "Muertes por Warden",
+    "color": "dark_red"
+   },
+   "tooltip": {
+    "text": "Muertes · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 192"
+   }
+  },
+  {
+   "label": {
+    "text": "Muertes por Jugadores",
+    "color": "dark_red"
+   },
+   "tooltip": {
+    "text": "Muertes · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 193"
+   }
+  },
+  {
+   "label": {
+    "text": "Distancia Total",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 194"
+   }
+  },
+  {
+   "label": {
+    "text": "Caminando",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 195"
+   }
+  },
+  {
+   "label": {
+    "text": "Corriendo",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 196"
+   }
+  },
+  {
+   "label": {
+    "text": "Agachado",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 197"
+   }
+  },
+  {
+   "label": {
+    "text": "Nadando",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 198"
+   }
+  },
+  {
+   "label": {
+    "text": "Sobre el Agua",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 199"
+   }
+  },
+  {
+   "label": {
+    "text": "Bajo el Agua",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 200"
+   }
+  },
+  {
+   "label": {
+    "text": "Escalando",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 201"
+   }
+  },
+  {
+   "label": {
+    "text": "Cayendo",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 202"
+   }
+  },
+  {
+   "label": {
+    "text": "Con Élitros",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 203"
+   }
+  },
+  {
+   "label": {
+    "text": "Volando (Creativo)",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 204"
+   }
+  },
+  {
+   "label": {
+    "text": "En Bote",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 205"
+   }
+  },
+  {
+   "label": {
+    "text": "En Vagoneta",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 206"
+   }
+  },
+  {
+   "label": {
+    "text": "A Caballo",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 207"
+   }
+  },
+  {
+   "label": {
+    "text": "En Cerdo",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 208"
+   }
+  },
+  {
+   "label": {
+    "text": "En Strider",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 209"
+   }
+  },
+  {
+   "label": {
+    "text": "En Ghast Feliz",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 210"
+   }
+  },
+  {
+   "label": {
+    "text": "Saltos",
+    "color": "yellow"
+   },
+   "tooltip": {
+    "text": "Movimiento · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 211"
+   }
+  },
+  {
+   "label": {
+    "text": "Tiempo Jugado",
+    "color": "light_purple"
+   },
+   "tooltip": {
+    "text": "Tiempo · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 212"
+   }
+  },
+  {
+   "label": {
+    "text": "Tiempo sin Dormir",
+    "color": "light_purple"
+   },
+   "tooltip": {
+    "text": "Tiempo · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 213"
+   }
+  },
+  {
+   "label": {
+    "text": "Tiempo Agachado",
+    "color": "light_purple"
+   },
+   "tooltip": {
+    "text": "Tiempo · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 214"
+   }
+  },
+  {
+   "label": {
+    "text": "Veces que Dormiste",
+    "color": "light_purple"
+   },
+   "tooltip": {
+    "text": "Tiempo · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 215"
+   }
+  },
+  {
+   "label": {
+    "text": "Desconexiones",
+    "color": "light_purple"
+   },
+   "tooltip": {
+    "text": "Tiempo · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 216"
+   }
+  },
+  {
+   "label": {
+    "text": "Nivel de Experiencia",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 217"
+   }
+  },
+  {
+   "label": {
+    "text": "Comercios con Aldeanos",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 218"
+   }
+  },
+  {
+   "label": {
+    "text": "Charlas con Aldeanos",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 219"
+   }
+  },
+  {
+   "label": {
+    "text": "Objetos Encantados",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 220"
+   }
+  },
+  {
+   "label": {
+    "text": "Raids Ganadas",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 221"
+   }
+  },
+  {
+   "label": {
+    "text": "Campanas Tocadas",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 222"
+   }
+  },
+  {
+   "label": {
+    "text": "Rebanadas de Pastel",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 223"
+   }
+  },
+  {
+   "label": {
+    "text": "Cofres Abiertos",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 224"
+   }
+  },
+  {
+   "label": {
+    "text": "Cofre de Ender Abierto",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 225"
+   }
+  },
+  {
+   "label": {
+    "text": "Cajas Shulker Abiertas",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 226"
+   }
+  },
+  {
+   "label": {
+    "text": "Mesas de Crafteo Usadas",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 227"
+   }
+  },
+  {
+   "label": {
+    "text": "Hornos Usados",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 228"
+   }
+  },
+  {
+   "label": {
+    "text": "Yunques Usados",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 229"
+   }
+  },
+  {
+   "label": {
+    "text": "Notas Tocadas",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 230"
+   }
+  },
+  {
+   "label": {
+    "text": "Discos Reproducidos",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 231"
+   }
+  },
+  {
+   "label": {
+    "text": "Plantas en Macetas",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 232"
+   }
+  },
+  {
+   "label": {
+    "text": "Dianas Acertadas",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 233"
+   }
+  },
+  {
+   "label": {
+    "text": "Objetos Tirados",
+    "color": "gold"
+   },
+   "tooltip": {
+    "text": "Social · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 234"
+   }
+  },
+  {
+   "label": {
+    "text": "Tótems Usados",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 235"
+   }
+  },
+  {
+   "label": {
+    "text": "Perlas de Ender Lanzadas",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 236"
+   }
+  },
+  {
+   "label": {
+    "text": "Cohetes Usados",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 237"
+   }
+  },
+  {
+   "label": {
+    "text": "Manzanas Doradas Comidas",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 238"
+   }
+  },
+  {
+   "label": {
+    "text": "Zanahorias Doradas Comidas",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 239"
+   }
+  },
+  {
+   "label": {
+    "text": "Antorchas Colocadas",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 240"
+   }
+  },
+  {
+   "label": {
+    "text": "TNT Colocada",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 241"
+   }
+  },
+  {
+   "label": {
+    "text": "Rieles Colocados",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 242"
+   }
+  },
+  {
+   "label": {
+    "text": "Disparos con Arco",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 243"
+   }
+  },
+  {
+   "label": {
+    "text": "Tridentes Lanzados",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 244"
+   }
+  },
+  {
+   "label": {
+    "text": "Picos Rotos",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 245"
+   }
+  }
+ ],
+ "exit_action": {
+  "label": "Cerrar",
+  "action": {
+   "type": "minecraft:run_command",
+   "command": "trigger statscraft set 2"
+  }
+ }
+}
