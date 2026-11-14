@@ -22,7 +22,15 @@
     "color": "white"
    },
    {
-    "text": " para ver el top.",
+    "text": " para ver el top. ",
+    "color": "gray"
+   },
+   {
+    "text": "Esc",
+    "color": "yellow"
+   },
+   {
+    "text": " para salir.",
     "color": "gray"
    }
   ]
@@ -2061,12 +2069,5 @@
     "command": "trigger statscraft set 245"
    }
   }
- ],
- "exit_action": {
-  "label": "Cerrar",
-  "action": {
-   "type": "minecraft:run_command",
-   "command": "trigger statscraft set 2"
-  }
- }
+ ]
 }

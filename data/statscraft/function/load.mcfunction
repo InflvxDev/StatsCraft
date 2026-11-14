@@ -1,7 +1,7 @@
 # StatsCraft - carga
 scoreboard objectives add sc.calc dummy
 # Trigger principal: cualquier jugador (con o sin OP) puede usar /trigger
-#   1 = menú, 2 = cerrar, 101+ = ranking de una estadística
+#   1 = menú, 101+ = ranking de una estadística
 scoreboard objectives add statscraft trigger "StatsCraft"
 # Detecta cuando un jugador vuelve a entrar (para registrar/actualizar su nombre)
 scoreboard objectives add sc.leave minecraft.custom:minecraft.leave_game

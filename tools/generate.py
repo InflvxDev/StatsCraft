@@ -282,7 +282,8 @@ menu = {
     "body": {"type": "minecraft:plain_message", "width": 400, "contents": [
         {"text": "Rankings del servidor. ", "color": "gray"},
         {"text": "Toca una estadística", "color": "white"},
-        {"text": " para ver el top.", "color": "gray"}]},
+        {"text": " para ver el top. ", "color": "gray"},
+        {"text": "Esc", "color": "yellow"}, {"text": " para salir.", "color": "gray"}]},
     "columns": 3,
     "pause": False,
     # Espera a que el servidor mande el ranking en vez de cerrar el diálogo.
@@ -290,10 +291,8 @@ menu = {
     # se pausa: el /trigger no se procesa hasta que quitas la pausa.
     "after_action": "wait_for_response",
     "actions": [d["b"] for d in db],
-    # "Cerrar" también pasa por el servidor: con wait_for_response, si nadie
-    # responde, el cliente se queda unos segundos en "esperando respuesta".
-    "exit_action": {"label": "Cerrar",
-                    "action": {"type": "minecraft:run_command", "command": "trigger statscraft set 2"}},
+    # Sin botón "Cerrar": con wait_for_response ese botón deja al cliente unos
+    # segundos en "esperando respuesta". Esc cierra directo, sin esperar.
 }
 write("dialog/menu.json", json.dumps(menu, ensure_ascii=False, indent=1) + "\n")
 
