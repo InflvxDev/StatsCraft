@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": [{"text":"[","color":"gray"},{"text":"StatsCraft","color":"gold"},{"text":"] ","color":"gray"},{"text":"Rankings de estadísticas para tu SMP","color":"white"}],
+    "description": [{"text":"[","color":"gray"},{"text":"Stats","color":"#FFD43B"},{"text":"Craft","color":"#C9CED8"},{"text":"] ","color":"gray"},{"text":"Rankings de estadísticas para tu SMP","color":"white"}],
     "min_format": 122,
     "max_format": 130
   }
