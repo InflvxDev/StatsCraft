@@ -206,6 +206,7 @@ function statscraft:util/add_obj {o:"sc.r.u.tnt",c:"minecraft.used:minecraft.tnt
 function statscraft:util/add_obj {o:"sc.r.u.torch",c:"minecraft.used:minecraft.torch",d:"minecraft.used:minecraft.torch"}
 function statscraft:util/add_obj {o:"sc.r.u.totem_of_undying",c:"minecraft.used:minecraft.totem_of_undying",d:"minecraft.used:minecraft.totem_of_undying"}
 function statscraft:util/add_obj {o:"sc.r.u.trident",c:"minecraft.used:minecraft.trident",d:"minecraft.used:minecraft.trident"}
+function statscraft:util/add_obj {o:"sc.advancements",c:"dummy",d:"Logros Conseguidos"}
 function statscraft:util/add_obj {o:"sc.ores",c:"dummy",d:"Menas Totales"}
 function statscraft:util/add_obj {o:"sc.coal",c:"dummy",d:"Menas de Carbón"}
 function statscraft:util/add_obj {o:"sc.iron",c:"dummy",d:"Menas de Hierro"}

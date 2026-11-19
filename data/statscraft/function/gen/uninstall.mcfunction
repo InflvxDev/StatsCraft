@@ -206,6 +206,7 @@ scoreboard objectives remove sc.r.u.tnt
 scoreboard objectives remove sc.r.u.torch
 scoreboard objectives remove sc.r.u.totem_of_undying
 scoreboard objectives remove sc.r.u.trident
+scoreboard objectives remove sc.advancements
 scoreboard objectives remove sc.ores
 scoreboard objectives remove sc.coal
 scoreboard objectives remove sc.iron

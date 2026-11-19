@@ -41,11 +41,11 @@
  "actions": [
   {
    "label": {
-    "text": "Menas Totales",
-    "color": "aqua"
+    "text": "Logros Conseguidos",
+    "color": "#FFE066"
    },
    "tooltip": {
-    "text": "Menas · ver ranking",
+    "text": "Logros · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -55,7 +55,7 @@
   },
   {
    "label": {
-    "text": "Menas de Carbón",
+    "text": "Menas Totales",
     "color": "aqua"
    },
    "tooltip": {
@@ -69,7 +69,7 @@
   },
   {
    "label": {
-    "text": "Menas de Hierro",
+    "text": "Menas de Carbón",
     "color": "aqua"
    },
    "tooltip": {
@@ -83,7 +83,7 @@
   },
   {
    "label": {
-    "text": "Menas de Cobre",
+    "text": "Menas de Hierro",
     "color": "aqua"
    },
    "tooltip": {
@@ -97,7 +97,7 @@
   },
   {
    "label": {
-    "text": "Menas de Oro",
+    "text": "Menas de Cobre",
     "color": "aqua"
    },
    "tooltip": {
@@ -111,7 +111,7 @@
   },
   {
    "label": {
-    "text": "Menas de Redstone",
+    "text": "Menas de Oro",
     "color": "aqua"
    },
    "tooltip": {
@@ -125,7 +125,7 @@
   },
   {
    "label": {
-    "text": "Menas de Lapislázuli",
+    "text": "Menas de Redstone",
     "color": "aqua"
    },
    "tooltip": {
@@ -139,7 +139,7 @@
   },
   {
    "label": {
-    "text": "Menas de Diamante",
+    "text": "Menas de Lapislázuli",
     "color": "aqua"
    },
    "tooltip": {
@@ -153,7 +153,7 @@
   },
   {
    "label": {
-    "text": "Menas de Esmeralda",
+    "text": "Menas de Diamante",
     "color": "aqua"
    },
    "tooltip": {
@@ -167,7 +167,7 @@
   },
   {
    "label": {
-    "text": "Cuarzo del Nether",
+    "text": "Menas de Esmeralda",
     "color": "aqua"
    },
    "tooltip": {
@@ -181,7 +181,7 @@
   },
   {
    "label": {
-    "text": "Escombros Ancestrales",
+    "text": "Cuarzo del Nether",
     "color": "aqua"
    },
    "tooltip": {
@@ -195,11 +195,11 @@
   },
   {
    "label": {
-    "text": "Minería de Piedra",
-    "color": "gray"
+    "text": "Escombros Ancestrales",
+    "color": "aqua"
    },
    "tooltip": {
-    "text": "Minería · ver ranking",
+    "text": "Menas · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -209,7 +209,7 @@
   },
   {
    "label": {
-    "text": "Minería de Pizarra",
+    "text": "Minería de Piedra",
     "color": "gray"
    },
    "tooltip": {
@@ -223,7 +223,7 @@
   },
   {
    "label": {
-    "text": "Granito/Diorita/Andesita",
+    "text": "Minería de Pizarra",
     "color": "gray"
    },
    "tooltip": {
@@ -237,7 +237,7 @@
   },
   {
    "label": {
-    "text": "Minería de Toba",
+    "text": "Granito/Diorita/Andesita",
     "color": "gray"
    },
    "tooltip": {
@@ -251,7 +251,7 @@
   },
   {
    "label": {
-    "text": "Minería de Netherrack",
+    "text": "Minería de Toba",
     "color": "gray"
    },
    "tooltip": {
@@ -265,7 +265,7 @@
   },
   {
    "label": {
-    "text": "Minería de Piedra del End",
+    "text": "Minería de Netherrack",
     "color": "gray"
    },
    "tooltip": {
@@ -279,7 +279,7 @@
   },
   {
    "label": {
-    "text": "Minería de Obsidiana",
+    "text": "Minería de Piedra del End",
     "color": "gray"
    },
    "tooltip": {
@@ -293,7 +293,7 @@
   },
   {
    "label": {
-    "text": "Basalto y Piedra Negra",
+    "text": "Minería de Obsidiana",
     "color": "gray"
    },
    "tooltip": {
@@ -307,7 +307,7 @@
   },
   {
    "label": {
-    "text": "Minería de Hielo",
+    "text": "Basalto y Piedra Negra",
     "color": "gray"
    },
    "tooltip": {
@@ -321,7 +321,7 @@
   },
   {
    "label": {
-    "text": "Excavación de Tierra",
+    "text": "Minería de Hielo",
     "color": "gray"
    },
    "tooltip": {
@@ -335,7 +335,7 @@
   },
   {
    "label": {
-    "text": "Excavación de Arena",
+    "text": "Excavación de Tierra",
     "color": "gray"
    },
    "tooltip": {
@@ -349,7 +349,7 @@
   },
   {
    "label": {
-    "text": "Excavación de Grava",
+    "text": "Excavación de Arena",
     "color": "gray"
    },
    "tooltip": {
@@ -363,7 +363,7 @@
   },
   {
    "label": {
-    "text": "Excavación de Arcilla",
+    "text": "Excavación de Grava",
     "color": "gray"
    },
    "tooltip": {
@@ -377,7 +377,7 @@
   },
   {
    "label": {
-    "text": "Amatista Recolectada",
+    "text": "Excavación de Arcilla",
     "color": "gray"
    },
    "tooltip": {
@@ -391,7 +391,7 @@
   },
   {
    "label": {
-    "text": "Piedra Luminosa",
+    "text": "Amatista Recolectada",
     "color": "gray"
    },
    "tooltip": {
@@ -405,7 +405,7 @@
   },
   {
    "label": {
-    "text": "Sculk Destruido",
+    "text": "Piedra Luminosa",
     "color": "gray"
    },
    "tooltip": {
@@ -419,7 +419,7 @@
   },
   {
    "label": {
-    "text": "Spawners Destruidos",
+    "text": "Sculk Destruido",
     "color": "gray"
    },
    "tooltip": {
@@ -433,11 +433,11 @@
   },
   {
    "label": {
-    "text": "Tala Total",
-    "color": "#C8925A"
+    "text": "Spawners Destruidos",
+    "color": "gray"
    },
    "tooltip": {
-    "text": "Tala · ver ranking",
+    "text": "Minería · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -447,7 +447,7 @@
   },
   {
    "label": {
-    "text": "Tala de Roble",
+    "text": "Tala Total",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -461,7 +461,7 @@
   },
   {
    "label": {
-    "text": "Tala de Abeto",
+    "text": "Tala de Roble",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -475,7 +475,7 @@
   },
   {
    "label": {
-    "text": "Tala de Abedul",
+    "text": "Tala de Abeto",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -489,7 +489,7 @@
   },
   {
    "label": {
-    "text": "Tala de Jungla",
+    "text": "Tala de Abedul",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -503,7 +503,7 @@
   },
   {
    "label": {
-    "text": "Tala de Acacia",
+    "text": "Tala de Jungla",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -517,7 +517,7 @@
   },
   {
    "label": {
-    "text": "Tala de Roble Oscuro",
+    "text": "Tala de Acacia",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -531,7 +531,7 @@
   },
   {
    "label": {
-    "text": "Tala de Mangle",
+    "text": "Tala de Roble Oscuro",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -545,7 +545,7 @@
   },
   {
    "label": {
-    "text": "Tala de Cerezo",
+    "text": "Tala de Mangle",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -559,7 +559,7 @@
   },
   {
    "label": {
-    "text": "Tala de Roble Pálido",
+    "text": "Tala de Cerezo",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -573,7 +573,7 @@
   },
   {
    "label": {
-    "text": "Tala de Tallo Carmesí",
+    "text": "Tala de Roble Pálido",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -587,7 +587,7 @@
   },
   {
    "label": {
-    "text": "Tala de Tallo Distorsionado",
+    "text": "Tala de Tallo Carmesí",
     "color": "#C8925A"
    },
    "tooltip": {
@@ -601,11 +601,11 @@
   },
   {
    "label": {
-    "text": "Cosecha Total",
-    "color": "green"
+    "text": "Tala de Tallo Distorsionado",
+    "color": "#C8925A"
    },
    "tooltip": {
-    "text": "Agricultura · ver ranking",
+    "text": "Tala · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -615,7 +615,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Trigo",
+    "text": "Cosecha Total",
     "color": "green"
    },
    "tooltip": {
@@ -629,7 +629,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Zanahorias",
+    "text": "Cosecha: Trigo",
     "color": "green"
    },
    "tooltip": {
@@ -643,7 +643,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Papas",
+    "text": "Cosecha: Zanahorias",
     "color": "green"
    },
    "tooltip": {
@@ -657,7 +657,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Remolachas",
+    "text": "Cosecha: Papas",
     "color": "green"
    },
    "tooltip": {
@@ -671,7 +671,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Sandías",
+    "text": "Cosecha: Remolachas",
     "color": "green"
    },
    "tooltip": {
@@ -685,7 +685,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Calabazas",
+    "text": "Cosecha: Sandías",
     "color": "green"
    },
    "tooltip": {
@@ -699,7 +699,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Caña de Azúcar",
+    "text": "Cosecha: Calabazas",
     "color": "green"
    },
    "tooltip": {
@@ -713,7 +713,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Verrugas del Nether",
+    "text": "Cosecha: Caña de Azúcar",
     "color": "green"
    },
    "tooltip": {
@@ -727,7 +727,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Cacao",
+    "text": "Cosecha: Verrugas del Nether",
     "color": "green"
    },
    "tooltip": {
@@ -741,7 +741,7 @@
   },
   {
    "label": {
-    "text": "Cosecha: Bambú",
+    "text": "Cosecha: Cacao",
     "color": "green"
    },
    "tooltip": {
@@ -755,7 +755,7 @@
   },
   {
    "label": {
-    "text": "Animales Criados",
+    "text": "Cosecha: Bambú",
     "color": "green"
    },
    "tooltip": {
@@ -769,7 +769,7 @@
   },
   {
    "label": {
-    "text": "Peces Pescados",
+    "text": "Animales Criados",
     "color": "green"
    },
    "tooltip": {
@@ -783,7 +783,7 @@
   },
   {
    "label": {
-    "text": "Polvo de Hueso Usado",
+    "text": "Peces Pescados",
     "color": "green"
    },
    "tooltip": {
@@ -797,11 +797,11 @@
   },
   {
    "label": {
-    "text": "Mobs Asesinados",
-    "color": "red"
+    "text": "Polvo de Hueso Usado",
+    "color": "green"
    },
    "tooltip": {
-    "text": "Combate · ver ranking",
+    "text": "Agricultura · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -811,7 +811,7 @@
   },
   {
    "label": {
-    "text": "Jugadores Asesinados",
+    "text": "Mobs Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -825,7 +825,7 @@
   },
   {
    "label": {
-    "text": "Ratio K/D (PvP)",
+    "text": "Jugadores Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -839,7 +839,7 @@
   },
   {
    "label": {
-    "text": "Mobs por Muerte",
+    "text": "Ratio K/D (PvP)",
     "color": "red"
    },
    "tooltip": {
@@ -853,7 +853,7 @@
   },
   {
    "label": {
-    "text": "Daño Infligido",
+    "text": "Mobs por Muerte",
     "color": "red"
    },
    "tooltip": {
@@ -867,7 +867,7 @@
   },
   {
    "label": {
-    "text": "Daño Recibido",
+    "text": "Daño Infligido",
     "color": "red"
    },
    "tooltip": {
@@ -881,7 +881,7 @@
   },
   {
    "label": {
-    "text": "Daño Bloqueado (Escudo)",
+    "text": "Daño Recibido",
     "color": "red"
    },
    "tooltip": {
@@ -895,7 +895,7 @@
   },
   {
    "label": {
-    "text": "Zombis Asesinados",
+    "text": "Daño Bloqueado (Escudo)",
     "color": "red"
    },
    "tooltip": {
@@ -909,7 +909,7 @@
   },
   {
    "label": {
-    "text": "Esqueletos Asesinados",
+    "text": "Zombis Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -923,7 +923,7 @@
   },
   {
    "label": {
-    "text": "Creepers Asesinados",
+    "text": "Esqueletos Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -937,7 +937,7 @@
   },
   {
    "label": {
-    "text": "Arañas Asesinadas",
+    "text": "Creepers Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -951,7 +951,7 @@
   },
   {
    "label": {
-    "text": "Endermans Asesinados",
+    "text": "Arañas Asesinadas",
     "color": "red"
    },
    "tooltip": {
@@ -965,7 +965,7 @@
   },
   {
    "label": {
-    "text": "Brujas Asesinadas",
+    "text": "Endermans Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -979,7 +979,7 @@
   },
   {
    "label": {
-    "text": "Phantoms Asesinados",
+    "text": "Brujas Asesinadas",
     "color": "red"
    },
    "tooltip": {
@@ -993,7 +993,7 @@
   },
   {
    "label": {
-    "text": "Slimes Asesinados",
+    "text": "Phantoms Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1007,7 +1007,7 @@
   },
   {
    "label": {
-    "text": "Blazes Asesinados",
+    "text": "Slimes Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1021,7 +1021,7 @@
   },
   {
    "label": {
-    "text": "Ghasts Asesinados",
+    "text": "Blazes Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1035,7 +1035,7 @@
   },
   {
    "label": {
-    "text": "Esqueletos Wither",
+    "text": "Ghasts Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1049,7 +1049,7 @@
   },
   {
    "label": {
-    "text": "Piglins Asesinados",
+    "text": "Esqueletos Wither",
     "color": "red"
    },
    "tooltip": {
@@ -1063,7 +1063,7 @@
   },
   {
    "label": {
-    "text": "Hoglins Asesinados",
+    "text": "Piglins Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1077,7 +1077,7 @@
   },
   {
    "label": {
-    "text": "Guardianes Asesinados",
+    "text": "Hoglins Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1091,7 +1091,7 @@
   },
   {
    "label": {
-    "text": "Shulkers Asesinados",
+    "text": "Guardianes Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1105,7 +1105,7 @@
   },
   {
    "label": {
-    "text": "Illagers Asesinados",
+    "text": "Shulkers Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1119,7 +1119,7 @@
   },
   {
    "label": {
-    "text": "Breezes Asesinados",
+    "text": "Illagers Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1133,7 +1133,7 @@
   },
   {
    "label": {
-    "text": "Creakings Asesinados",
+    "text": "Breezes Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1147,7 +1147,7 @@
   },
   {
    "label": {
-    "text": "Wardens Asesinados",
+    "text": "Creakings Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1161,7 +1161,7 @@
   },
   {
    "label": {
-    "text": "Withers Derrotados",
+    "text": "Wardens Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1175,7 +1175,7 @@
   },
   {
    "label": {
-    "text": "Dragones Derrotados",
+    "text": "Withers Derrotados",
     "color": "red"
    },
    "tooltip": {
@@ -1189,7 +1189,7 @@
   },
   {
    "label": {
-    "text": "Gólems de Hierro Asesinados",
+    "text": "Dragones Derrotados",
     "color": "red"
    },
    "tooltip": {
@@ -1203,7 +1203,7 @@
   },
   {
    "label": {
-    "text": "Aldeanos Asesinados",
+    "text": "Gólems de Hierro Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1217,7 +1217,7 @@
   },
   {
    "label": {
-    "text": "Animales Cazados",
+    "text": "Aldeanos Asesinados",
     "color": "red"
    },
    "tooltip": {
@@ -1231,11 +1231,11 @@
   },
   {
    "label": {
-    "text": "Muertes",
-    "color": "dark_red"
+    "text": "Animales Cazados",
+    "color": "red"
    },
    "tooltip": {
-    "text": "Muertes · ver ranking",
+    "text": "Combate · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -1245,7 +1245,7 @@
   },
   {
    "label": {
-    "text": "Racha sin Morir",
+    "text": "Muertes",
     "color": "dark_red"
    },
    "tooltip": {
@@ -1259,7 +1259,7 @@
   },
   {
    "label": {
-    "text": "Muertes por Creeper",
+    "text": "Racha sin Morir",
     "color": "dark_red"
    },
    "tooltip": {
@@ -1273,7 +1273,7 @@
   },
   {
    "label": {
-    "text": "Muertes por Zombi",
+    "text": "Muertes por Creeper",
     "color": "dark_red"
    },
    "tooltip": {
@@ -1287,7 +1287,7 @@
   },
   {
    "label": {
-    "text": "Muertes por Esqueleto",
+    "text": "Muertes por Zombi",
     "color": "dark_red"
    },
    "tooltip": {
@@ -1301,7 +1301,7 @@
   },
   {
    "label": {
-    "text": "Muertes por Enderman",
+    "text": "Muertes por Esqueleto",
     "color": "dark_red"
    },
    "tooltip": {
@@ -1315,7 +1315,7 @@
   },
   {
    "label": {
-    "text": "Muertes por Warden",
+    "text": "Muertes por Enderman",
     "color": "dark_red"
    },
    "tooltip": {
@@ -1329,7 +1329,7 @@
   },
   {
    "label": {
-    "text": "Muertes por Jugadores",
+    "text": "Muertes por Warden",
     "color": "dark_red"
    },
    "tooltip": {
@@ -1343,11 +1343,11 @@
   },
   {
    "label": {
-    "text": "Distancia Total",
-    "color": "yellow"
+    "text": "Muertes por Jugadores",
+    "color": "dark_red"
    },
    "tooltip": {
-    "text": "Movimiento · ver ranking",
+    "text": "Muertes · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -1357,7 +1357,7 @@
   },
   {
    "label": {
-    "text": "Caminando",
+    "text": "Distancia Total",
     "color": "yellow"
    },
    "tooltip": {
@@ -1371,7 +1371,7 @@
   },
   {
    "label": {
-    "text": "Corriendo",
+    "text": "Caminando",
     "color": "yellow"
    },
    "tooltip": {
@@ -1385,7 +1385,7 @@
   },
   {
    "label": {
-    "text": "Agachado",
+    "text": "Corriendo",
     "color": "yellow"
    },
    "tooltip": {
@@ -1399,7 +1399,7 @@
   },
   {
    "label": {
-    "text": "Nadando",
+    "text": "Agachado",
     "color": "yellow"
    },
    "tooltip": {
@@ -1413,7 +1413,7 @@
   },
   {
    "label": {
-    "text": "Sobre el Agua",
+    "text": "Nadando",
     "color": "yellow"
    },
    "tooltip": {
@@ -1427,7 +1427,7 @@
   },
   {
    "label": {
-    "text": "Bajo el Agua",
+    "text": "Sobre el Agua",
     "color": "yellow"
    },
    "tooltip": {
@@ -1441,7 +1441,7 @@
   },
   {
    "label": {
-    "text": "Escalando",
+    "text": "Bajo el Agua",
     "color": "yellow"
    },
    "tooltip": {
@@ -1455,7 +1455,7 @@
   },
   {
    "label": {
-    "text": "Cayendo",
+    "text": "Escalando",
     "color": "yellow"
    },
    "tooltip": {
@@ -1469,7 +1469,7 @@
   },
   {
    "label": {
-    "text": "Con Élitros",
+    "text": "Cayendo",
     "color": "yellow"
    },
    "tooltip": {
@@ -1483,7 +1483,7 @@
   },
   {
    "label": {
-    "text": "Volando (Creativo)",
+    "text": "Con Élitros",
     "color": "yellow"
    },
    "tooltip": {
@@ -1497,7 +1497,7 @@
   },
   {
    "label": {
-    "text": "En Bote",
+    "text": "Volando (Creativo)",
     "color": "yellow"
    },
    "tooltip": {
@@ -1511,7 +1511,7 @@
   },
   {
    "label": {
-    "text": "En Vagoneta",
+    "text": "En Bote",
     "color": "yellow"
    },
    "tooltip": {
@@ -1525,7 +1525,7 @@
   },
   {
    "label": {
-    "text": "A Caballo",
+    "text": "En Vagoneta",
     "color": "yellow"
    },
    "tooltip": {
@@ -1539,7 +1539,7 @@
   },
   {
    "label": {
-    "text": "En Cerdo",
+    "text": "A Caballo",
     "color": "yellow"
    },
    "tooltip": {
@@ -1553,7 +1553,7 @@
   },
   {
    "label": {
-    "text": "En Strider",
+    "text": "En Cerdo",
     "color": "yellow"
    },
    "tooltip": {
@@ -1567,7 +1567,7 @@
   },
   {
    "label": {
-    "text": "En Ghast Feliz",
+    "text": "En Strider",
     "color": "yellow"
    },
    "tooltip": {
@@ -1581,7 +1581,7 @@
   },
   {
    "label": {
-    "text": "Saltos",
+    "text": "En Ghast Feliz",
     "color": "yellow"
    },
    "tooltip": {
@@ -1595,11 +1595,11 @@
   },
   {
    "label": {
-    "text": "Tiempo Jugado",
-    "color": "light_purple"
+    "text": "Saltos",
+    "color": "yellow"
    },
    "tooltip": {
-    "text": "Tiempo · ver ranking",
+    "text": "Movimiento · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -1609,7 +1609,7 @@
   },
   {
    "label": {
-    "text": "Tiempo sin Dormir",
+    "text": "Tiempo Jugado",
     "color": "light_purple"
    },
    "tooltip": {
@@ -1623,7 +1623,7 @@
   },
   {
    "label": {
-    "text": "Tiempo Agachado",
+    "text": "Tiempo sin Dormir",
     "color": "light_purple"
    },
    "tooltip": {
@@ -1637,7 +1637,7 @@
   },
   {
    "label": {
-    "text": "Veces que Dormiste",
+    "text": "Tiempo Agachado",
     "color": "light_purple"
    },
    "tooltip": {
@@ -1651,7 +1651,7 @@
   },
   {
    "label": {
-    "text": "Desconexiones",
+    "text": "Veces que Dormiste",
     "color": "light_purple"
    },
    "tooltip": {
@@ -1665,11 +1665,11 @@
   },
   {
    "label": {
-    "text": "Nivel de Experiencia",
-    "color": "gold"
+    "text": "Desconexiones",
+    "color": "light_purple"
    },
    "tooltip": {
-    "text": "Social · ver ranking",
+    "text": "Tiempo · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -1679,7 +1679,7 @@
   },
   {
    "label": {
-    "text": "Comercios con Aldeanos",
+    "text": "Nivel de Experiencia",
     "color": "gold"
    },
    "tooltip": {
@@ -1693,7 +1693,7 @@
   },
   {
    "label": {
-    "text": "Charlas con Aldeanos",
+    "text": "Comercios con Aldeanos",
     "color": "gold"
    },
    "tooltip": {
@@ -1707,7 +1707,7 @@
   },
   {
    "label": {
-    "text": "Objetos Encantados",
+    "text": "Charlas con Aldeanos",
     "color": "gold"
    },
    "tooltip": {
@@ -1721,7 +1721,7 @@
   },
   {
    "label": {
-    "text": "Raids Ganadas",
+    "text": "Objetos Encantados",
     "color": "gold"
    },
    "tooltip": {
@@ -1735,7 +1735,7 @@
   },
   {
    "label": {
-    "text": "Campanas Tocadas",
+    "text": "Raids Ganadas",
     "color": "gold"
    },
    "tooltip": {
@@ -1749,7 +1749,7 @@
   },
   {
    "label": {
-    "text": "Rebanadas de Pastel",
+    "text": "Campanas Tocadas",
     "color": "gold"
    },
    "tooltip": {
@@ -1763,7 +1763,7 @@
   },
   {
    "label": {
-    "text": "Cofres Abiertos",
+    "text": "Rebanadas de Pastel",
     "color": "gold"
    },
    "tooltip": {
@@ -1777,7 +1777,7 @@
   },
   {
    "label": {
-    "text": "Cofre de Ender Abierto",
+    "text": "Cofres Abiertos",
     "color": "gold"
    },
    "tooltip": {
@@ -1791,7 +1791,7 @@
   },
   {
    "label": {
-    "text": "Cajas Shulker Abiertas",
+    "text": "Cofre de Ender Abierto",
     "color": "gold"
    },
    "tooltip": {
@@ -1805,7 +1805,7 @@
   },
   {
    "label": {
-    "text": "Mesas de Crafteo Usadas",
+    "text": "Cajas Shulker Abiertas",
     "color": "gold"
    },
    "tooltip": {
@@ -1819,7 +1819,7 @@
   },
   {
    "label": {
-    "text": "Hornos Usados",
+    "text": "Mesas de Crafteo Usadas",
     "color": "gold"
    },
    "tooltip": {
@@ -1833,7 +1833,7 @@
   },
   {
    "label": {
-    "text": "Yunques Usados",
+    "text": "Hornos Usados",
     "color": "gold"
    },
    "tooltip": {
@@ -1847,7 +1847,7 @@
   },
   {
    "label": {
-    "text": "Notas Tocadas",
+    "text": "Yunques Usados",
     "color": "gold"
    },
    "tooltip": {
@@ -1861,7 +1861,7 @@
   },
   {
    "label": {
-    "text": "Discos Reproducidos",
+    "text": "Notas Tocadas",
     "color": "gold"
    },
    "tooltip": {
@@ -1875,7 +1875,7 @@
   },
   {
    "label": {
-    "text": "Plantas en Macetas",
+    "text": "Discos Reproducidos",
     "color": "gold"
    },
    "tooltip": {
@@ -1889,7 +1889,7 @@
   },
   {
    "label": {
-    "text": "Dianas Acertadas",
+    "text": "Plantas en Macetas",
     "color": "gold"
    },
    "tooltip": {
@@ -1903,7 +1903,7 @@
   },
   {
    "label": {
-    "text": "Objetos Tirados",
+    "text": "Dianas Acertadas",
     "color": "gold"
    },
    "tooltip": {
@@ -1917,11 +1917,11 @@
   },
   {
    "label": {
-    "text": "Tótems Usados",
-    "color": "#7FD4FF"
+    "text": "Objetos Tirados",
+    "color": "gold"
    },
    "tooltip": {
-    "text": "Objetos · ver ranking",
+    "text": "Social · ver ranking",
     "color": "gray"
    },
    "action": {
@@ -1931,7 +1931,7 @@
   },
   {
    "label": {
-    "text": "Perlas de Ender Lanzadas",
+    "text": "Tótems Usados",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -1945,7 +1945,7 @@
   },
   {
    "label": {
-    "text": "Cohetes Usados",
+    "text": "Perlas de Ender Lanzadas",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -1959,7 +1959,7 @@
   },
   {
    "label": {
-    "text": "Manzanas Doradas Comidas",
+    "text": "Cohetes Usados",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -1973,7 +1973,7 @@
   },
   {
    "label": {
-    "text": "Zanahorias Doradas Comidas",
+    "text": "Manzanas Doradas Comidas",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -1987,7 +1987,7 @@
   },
   {
    "label": {
-    "text": "Antorchas Colocadas",
+    "text": "Zanahorias Doradas Comidas",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -2001,7 +2001,7 @@
   },
   {
    "label": {
-    "text": "TNT Colocada",
+    "text": "Antorchas Colocadas",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -2015,7 +2015,7 @@
   },
   {
    "label": {
-    "text": "Rieles Colocados",
+    "text": "TNT Colocada",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -2029,7 +2029,7 @@
   },
   {
    "label": {
-    "text": "Disparos con Arco",
+    "text": "Rieles Colocados",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -2043,7 +2043,7 @@
   },
   {
    "label": {
-    "text": "Tridentes Lanzados",
+    "text": "Disparos con Arco",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -2057,7 +2057,7 @@
   },
   {
    "label": {
-    "text": "Picos Rotos",
+    "text": "Tridentes Lanzados",
     "color": "#7FD4FF"
    },
    "tooltip": {
@@ -2067,6 +2067,20 @@
    "action": {
     "type": "minecraft:run_command",
     "command": "trigger statscraft set 245"
+   }
+  },
+  {
+   "label": {
+    "text": "Picos Rotos",
+    "color": "#7FD4FF"
+   },
+   "tooltip": {
+    "text": "Objetos · ver ranking",
+    "color": "gray"
+   },
+   "action": {
+    "type": "minecraft:run_command",
+    "command": "trigger statscraft set 246"
    }
   }
  ]

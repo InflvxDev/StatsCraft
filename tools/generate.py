@@ -7,6 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NS = os.path.join(ROOT, "data", "statscraft")
 
 CATS = {
+    "Logros":      {"col": "#FFE066"},
     "Menas":       {"col": "aqua"},
     "Minería":     {"col": "gray"},
     "Tala":        {"col": "#C8925A"},
@@ -67,9 +68,14 @@ DIST = [
 
 # (id, nombre, categoria, formato, fuentes)
 # formato: n=numero, d=distancia (cm), t=tiempo (ticks), h=corazones (daño x10), r=ratio (x100)
-# fuentes: lista de criterios (se suman) o ("ratio", criterio_a, criterio_b)
+# fuentes: lista de criterios (se suman), ("ratio", criterio_a, criterio_b)
+#          o ("adv",): logros (ver abajo)
 STATS = []
 def S(id, name, cat, fmt, src): STATS.append(dict(id=id, n=name, c=cat, f=fmt, src=src))
+
+# --- Logros: si BlazeandCave's Advancements Pack está instalado, copia su total
+# (bac_advancements); si no, cuenta los logros vanilla de VANILLA_ADV.
+S("advancements", "Logros Conseguidos", "Logros", "n", ("adv",))
 
 # --- Menas
 S("ores", "Menas Totales", "Menas", "n", sum(ORES.values(), []))
@@ -196,6 +202,15 @@ S("bow", "Disparos con Arco", "Objetos", "n", U("bow", "crossbow"))
 S("trident", "Tridentes Lanzados", "Objetos", "n", U("trident"))
 S("pickaxes", "Picos Rotos", "Objetos", "n", B("wooden_pickaxe", "stone_pickaxe", "copper_pickaxe", "iron_pickaxe", "golden_pickaxe", "diamond_pickaxe", "netherite_pickaxe"))
 
+# Logros vanilla (sin las raíces de cada pestaña), sacados de 26.4-snapshot-10.
+# Se usan cuando BlazeandCave's Advancements Pack no está instalado.
+VANILLA_ADV = []
+VANILLA_ADV += ["adventure/" + x for x in ['adventuring_time', 'arbalistic', 'avoid_vibration', 'blowback', 'brush_armadillo', 'bullseye', 'craft_decorated_pot_using_only_sherds', 'crafters_crafting_crafters', 'fall_from_world_height', 'heart_transplanter', 'hero_of_the_village', 'honey_block_slide', 'kill_a_mob', 'kill_all_mobs', 'kill_mob_near_sculk_catalyst', 'lighten_up', 'lightning_rod_with_villager_no_fire', 'minecraft_trials_edition', 'ol_betsy', 'overoverkill', 'play_jukebox_in_meadows', 'read_power_of_chiseled_bookshelf', 'revaulting', 'salvage_sherd', 'shoot_arrow', 'sleep_in_bed', 'sniper_duel', 'spear_many_mobs', 'spyglass_at_dragon', 'spyglass_at_ghast', 'spyglass_at_parrot', 'summon_iron_golem', 'throw_trident', 'totem_of_undying', 'trade', 'trade_at_world_height', 'trim_with_all_exclusive_armor_patterns', 'trim_with_any_armor_pattern', 'two_birds_one_arrow', 'under_lock_and_key', 'use_lodestone', 'very_very_frightening', 'voluntary_exile', 'walk_on_powder_snow_with_leather_boots', 'what_goes_around_comes_around', 'who_needs_rockets', 'whos_the_pillager_now']]
+VANILLA_ADV += ["end/" + x for x in ['dragon_breath', 'dragon_egg', 'elytra', 'enter_end_gateway', 'find_end_city', 'kill_dragon', 'levitate', 'respawn_dragon']]
+VANILLA_ADV += ["husbandry/" + x for x in ['allay_deliver_cake_to_note_block', 'allay_deliver_item_to_player', 'axolotl_in_a_bucket', 'balanced_diet', 'bred_all_animals', 'breed_an_animal', 'complete_catalogue', 'feed_snifflet', 'fishy_business', 'froglights', 'kill_axolotl_target', 'leash_all_frog_variants', 'make_a_sign_glow', 'obtain_netherite_hoe', 'obtain_sniffer_egg', 'place_dried_ghast_in_water', 'plant_any_sniffer_seed', 'plant_seed', 'remove_wolf_armor', 'repair_wolf_armor', 'ride_a_boat_with_a_goat', 'safely_harvest_honey', 'silk_touch_nest', 'tactical_fishing', 'tadpole_in_a_bucket', 'tame_an_animal', 'uh_oh', 'wax_off', 'wax_on', 'whole_pack']]
+VANILLA_ADV += ["nether/" + x for x in ['all_effects', 'all_potions', 'brew_potion', 'charge_respawn_anchor', 'create_beacon', 'create_full_beacon', 'distract_piglin', 'explore_nether', 'fast_travel', 'find_bastion', 'find_fortress', 'get_wither_skull', 'loot_bastion', 'netherite_armor', 'obtain_ancient_debris', 'obtain_blaze_rod', 'obtain_crying_obsidian', 'return_to_sender', 'ride_strider', 'ride_strider_in_overworld_lava', 'summon_wither', 'uneasy_alliance']]
+VANILLA_ADV += ["story/" + x for x in ['cure_zombie_villager', 'deflect_arrow', 'enchant_item', 'enter_the_end', 'enter_the_nether', 'follow_ender_eye', 'form_obsidian', 'iron_tools', 'lava_bucket', 'mine_diamond', 'mine_stone', 'obtain_armor', 'shiny_gear', 'smelt_iron', 'upgrade_tools']]
+
 # --------------------------------------------------------------------------
 def raw_obj(crit):
     if crit == "level": return "sc.r.level"
@@ -212,14 +227,28 @@ def snbt(v):
     if isinstance(v, dict): return "{" + ",".join("%s:%s" % (k, snbt(x)) for k, x in v.items()) + "}"
     raise TypeError(v)
 
+HDR = "# ARCHIVO GENERADO por tools/generate.py - no editar a mano.\n"
+
 raws = {}          # objetivo crudo -> criterio
+files = {}         # archivos extra generados
 db = []
 calc = []
 
 for idx, s in enumerate(STATS):
     i = 101 + idx
     src = s["src"]
-    if isinstance(src, tuple):
+    if isinstance(src, tuple) and src[0] == "adv":
+        obj = "sc." + s["id"]; s["dummy"] = obj
+        calc.append("function statscraft:gen/advancements")
+        adv = [HDR.rstrip(), "# Logros de @s -> %s" % obj,
+               "# Con BlazeandCave's Advancements Pack: usa su contador (incluye los vanilla).",
+               "execute if entity @s[scores={bac_advancements=0..}] run return run scoreboard players operation @s %s = @s bac_advancements" % obj,
+               "# Sin él: cuenta los logros vanilla.",
+               "scoreboard players set #adv sc.calc 0"]
+        adv += ["execute if entity @s[advancements={minecraft:%s=true}] run scoreboard players add #adv sc.calc 1" % a for a in VANILLA_ADV]
+        adv.append("scoreboard players operation @s %s = #adv sc.calc" % obj)
+        files["function/gen/advancements.mcfunction"] = "\n".join(adv) + "\n"
+    elif isinstance(src, tuple):
         a, b = raw_obj(src[1]), raw_obj(src[2])
         raws[a] = src[1]; raws[b] = src[2]
         obj = "sc." + s["id"]
@@ -252,7 +281,7 @@ def write(rel, text):
     with open(p, "w", encoding="utf-8", newline="\n") as f:
         f.write(text)
 
-HDR = "# ARCHIVO GENERADO por tools/generate.py - no editar a mano.\n"
+for rel, text in files.items(): write(rel, text)
 
 lines = [HDR]
 for o, c in sorted(raws.items()):

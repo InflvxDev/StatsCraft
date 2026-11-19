@@ -1,5 +1,6 @@
 # ARCHIVO GENERADO por tools/generate.py - no editar a mano.
 # Calcula las stats combinadas (sumas y ratios) para @s
+function statscraft:gen/advancements
 scoreboard players set @s sc.ores 0
 scoreboard players operation @s sc.ores += @s sc.r.m.coal_ore
 scoreboard players operation @s sc.ores += @s sc.r.m.deepslate_coal_ore
