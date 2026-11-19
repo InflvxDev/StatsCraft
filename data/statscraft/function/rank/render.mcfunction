@@ -16,6 +16,8 @@ execute if score #total sc.calc matches 0 run data modify storage statscraft:tmp
 # Filas (máximo 100)
 scoreboard players set #pos sc.calc 0
 scoreboard players set #mypos sc.calc 0
+scoreboard players set #rank sc.calc 0
+scoreboard players set #prev sc.calc -1
 execute if data storage statscraft:tmp sorted[0] run function statscraft:rank/row_loop
 
 # Pie: puesto de quien mira
